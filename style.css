@@ -93,7 +93,7 @@ a{text-decoration: none; color: var(--color-white);}
     background-size: cover;
     background-position: center center;
     border-radius: 10px;
-    height: 376px;
+    height: 350px;
 }
 .fondoDouble{
     background-image: url(./assets/burger-image2.jpg);
@@ -269,11 +269,14 @@ a{text-decoration: none; color: var(--color-white);}
 
 @media screen and (max-width: 650px) {
     :root {
-        --size-titulos: 3em;
+        --size-titulos: 2.5em;
         --size-subtitulos: 2em;
-        --size-textos:1.5em;
-        --size-subtextos:1.3em;
+        --size-textos:1.2em;
+        --size-subtextos:1em;
+        --size-button2: 1em;
     }
-    .textosBurger {margin: 100px 0px 0px 0px;}
-
+    .textosBurger {margin: 70px 0px 0px 0px;}
+    .fondoPopular{ height: 270px;}
+    .fondoChili {height: 130px;}
+    .fondoDouble {height: 130px;}
 }
