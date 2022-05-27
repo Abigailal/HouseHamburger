@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+/* --------------------- *\
+        DOCUMENTO INDEX
+\* --------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-bebas: 'Bebas Neue', cursive;
+    --font-alfa: 'Alfa Slab One', cursive;
+    --color-brown:#42200b;
+    --color-shadow:#fce9bc;
+    --color-button:#df1c1c;
+    --color-always:#f8c136;
+    --color-white:white;
+    --size-titulos: 8em;
+    --size-titulos2:3em;
+    --size-subtitulos: 6em;
+    --size-subtitulos2:3em;
+    --size-intermedio:3.3em;
+    --size-textos: 2.5em;
+    --size-subtextos: 1.3em;
+    --size-button1:1.5em;
+    --size-button2:1.2em;
+    --size-button3:1.1em;
+}
+
+a{text-decoration: none; color: var(--color-white);}
+.letraBebas {font-family: var(--font-bebas);}
+.letraAlfa{font-family: var(--font-alfa);}
+
+/* --------------------- *\
+           HEADER
+\* --------------------- */
+
+#fondoHeader img{
+    max-height: 100vh;
+    object-fit: cover; /*indica cómo el contenido de un elemento reemplazado, por ejemplo un <img> o <video>, debería redimensionarse para ajustarse a su contenedor.*/
+}
+#carousel {position: relative;}
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: var(--color-white);
+    z-index: 1; /*Prioridad de elementos*/
+}
+.carousel-caption {
+    margin: 0; 
+    padding: 0;
+}
+.logoimg img{max-width: 100%;}
+.btn-navbar {
+    color: var(--color-brown);
+    border: 1px solid var(--color-brown);
+}
+.fondoNavItems{
+    background-image: url(../../assets/header.jpg);
+    background-repeat: no-repeat;
+    height: 100px;
+    max-height: auto;
+}
+.nav-link {
+    color: var(--color-brown);
+    font-size: var(--size-subtextos);
+}
+.nav-link:hover,.btn-always:hover{color: var(--color-white);}
+.textosBurger {margin-top:200px; margin-left: 30px;}
+.tituloBurger {color: var(--color-brown);}
+.itgood {font-size: var(--size-textos) ;}
+.burger {
+    font-size: var(--size-titulos);
+    text-shadow: 4px 4px var(--color-shadow);
+}
+.week{
+    font-size: var(--size-subtitulos);
+    text-shadow: 4px 4px var(--color-shadow);
+}
+/* --------------------- *\
+           MAIN
+\* --------------------- */
+/*-----------------------------Section1*/
+.fondoPopular{
+    background-image: url(../../assets/burger-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 376px;
+}
+.fondoDouble{
+    background-image: url(../../assets/burger-image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 180px;
+}
+.fondoChili{
+    background-image: url(../../assets/burger-image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 180px;
+}
+.try {
+    color: var(--color-white);
+    font-size: var(--size-subtextos);
+}
+.more {
+    color: var(--color-white);
+    font-size: var(--size-textos);
+}
+/*-----------------------------Section2*/
+#chooseIt img{max-width: 100%;}
+.btn-always{
+    color: var(--color-brown);
+    background: var(--color-always);
+    font-size: var(--size-button1);
+}
+.tituloChoose{
+    color: var(--color-brown);
+    font-size: var(--size-subtitulos);
+}
+.parrafoChoose{
+    color: var(--color-brown);
+    font-size: var(--size-subtextos);
+}
+.tituloLorem {
+    color: var(--color-brown);
+    font-size: var(--size-subtitulos2);
+}
+.parrafoLorem {
+    color: var(--color-brown);
+    font-size: var(--size-subtextos);
+}
+.btn-order{
+    color: var(--color-white);
+    background: var(--color-button);
+    font-size: var(--size-button2);
+}
+/*-----------------------------Section3*/
+#noticeUp {margin-top: 120px;overflow: hidden;}
+.shadowDiscover {box-shadow: 1px 20px 20px rgb(129, 129, 129);}
+.tituloDiscover {
+    color: var(--color-brown);
+    font-size: var(--size-subtitulos2);
+}
+.tituloUp {
+    color: var(--color-brown);
+    font-size: var(--size-titulos2);
+}
+.parrafoDiscover{
+    color: var(--color-brown);
+    font-size: var(--size-subtextos);
+}
+.imgDiscover img {max-width: 100%;}
+.dots-container {display: flex;}
+.dots-container .dot {
+    margin-left: 2px;
+    width: 12px;
+    height: 12px;
+    background-color: #dddddd;
+    border-radius: 50%;
+}
+.dots-container .dot-amarillo {background-color: #f8c136;}
+
+/*-----------------------------Section4*/
+#contactUs{
+    background-image: url(../../assets/back-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 90vh;
+    margin-top: 100px;
+}
+.tituloReser {
+    color: var(--color-brown);
+    font-size: var(--size-subtitulos2);
+}
+.tituloBook {
+    color: var(--color-brown);
+    font-size: var(--size-intermedio);
+}
+.btn-find{
+    color: var(--color-white);
+    background: var(--color-button);
+    font-size: var(--size-button3);
+}
+/* --------------------- *\
+          FOOTER
+\* --------------------- */
+#footer {
+    height: auto;
+    background-image: url(../../assets/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: var(--color-white);
+    margin-top: 50px;
+}
+.icon-maps {
+    width: 30px;
+    height: auto;
+}
+.logoFooter img {max-width: 100%;}
+.socialItems{width: auto;}
+.social-item{color: var(--color-white);}
+.social-item:hover{color: var(--color-brown);}
+
+
+
+
+
+/* --------------------- *\
+        DOCUMENTO PEDIDOS
+\* --------------------- */
+#mainShop .card{border: none;}
+#mainShop .table {
+    font-size: var(--size-subtextos);
+}
+.storeSection img{max-width: 50%;}
+.dropdown-menu{background: rgb(248,195,62);}
+.social-itemP {color: var(--color-brown);}
+.social-itemP:hover {color: var(--color-always);}
+.shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+}
+.shopping-cart-quantity-input {
+    max-width: 45px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.shopping-cart-total {min-height: 96px;}
+
+
+
+
+
+
+
+
+/* --------------------- *\
+          MEDIASQ
+\* --------------------- */
+@media screen and (max-width: 950px) {
+    :root {
+        --size-titulos: 5em;
+        --size-subtitulos: 4em;
+        --size-textos: 2.5em;
+        --size-subtextos:1.3em;
+    }
+    #contactUs{height: auto;}
+    .logoimg-a {width: 50%;}
+    .logoimg img{max-width: 100%;}
+    .textosBurger {margin: 120px 0px 0px 0px;}
+    .fondoNavItems{height: auto;}
+}
+
+@media screen and (max-width: 650px) {
+    :root {
+        --size-titulos: 3em;
+        --size-subtitulos: 2em;
+        --size-textos:1.5em;
+        --size-subtextos:1.3em;
+    }
+    .textosBurger {margin: 100px 0px 0px 0px;}
+
+}

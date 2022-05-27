@@ -1,0 +1,21 @@
+
+[
+    {
+      "price": 500,
+      "id": 1,
+      "title": "MacTrio",
+      "thumbnailUrl": "../assets/burguer1.png"
+    },
+    {
+      "price": 300,
+      "id": 2,
+      "title": "Burger Jr.",
+      "thumbnailUrl": "../assets/burguer2.png"
+    },
+    {
+      "price": 100,
+      "id": 3,
+      "title": "Big Mac",
+      "thumbnailUrl": "../assets/burguer1.png"
+    }
+]
