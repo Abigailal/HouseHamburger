@@ -62,7 +62,7 @@ a{text-decoration: none; color: var(--color-white);}
     border: 1px solid var(--color-brown);
 }
 .fondoNavItems{
-    background-image: url(../../assets/header.jpg);
+    background-image: url(./assets/header.jpg);
     background-repeat: no-repeat;
     height: 100px;
     max-height: auto;
@@ -88,7 +88,7 @@ a{text-decoration: none; color: var(--color-white);}
 \* --------------------- */
 /*-----------------------------Section1*/
 .fondoPopular{
-    background-image: url(../../assets/burger-image1.jpg);
+    background-image: url(./assets/burger-image1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -96,7 +96,7 @@ a{text-decoration: none; color: var(--color-white);}
     height: 376px;
 }
 .fondoDouble{
-    background-image: url(../../assets/burger-image2.jpg);
+    background-image: url(./assets/burger-image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -104,7 +104,7 @@ a{text-decoration: none; color: var(--color-white);}
     height: 180px;
 }
 .fondoChili{
-    background-image: url(../../assets/burger-image3.jpg);
+    background-image: url(./assets/burger-image3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -175,7 +175,7 @@ a{text-decoration: none; color: var(--color-white);}
 
 /*-----------------------------Section4*/
 #contactUs{
-    background-image: url(../../assets/back-contact.jpg);
+    background-image: url(./assets/back-contact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -201,7 +201,7 @@ a{text-decoration: none; color: var(--color-white);}
 \* --------------------- */
 #footer {
     height: auto;
-    background-image: url(../../assets/footer.jpg);
+    background-image: url(./assets/footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
